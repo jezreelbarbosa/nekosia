@@ -1,8 +1,6 @@
 import Foundation
 
-public struct NekosiaModel: Decodable, Equatable {
-    public let success: Bool
-    public let status: Int
+public struct NekosiaAPIModel: Decodable, Equatable {
     public let count: Int
     public let images: [ImageItemModel]
 }

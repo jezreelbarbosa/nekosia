@@ -5,6 +5,9 @@
       location = "group:NekosiaAPI">
    </FileRef>
    <FileRef
+      location = "group:Components">
+   </FileRef>
+   <FileRef
       location = "container:Nekosia.xcodeproj">
    </FileRef>
 </Workspace>

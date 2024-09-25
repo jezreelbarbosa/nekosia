@@ -17,7 +17,8 @@ open class ServiceAPI {
 
     // Functions
 
-    public func makeRequest<T>(endpoint: Endpointing, completion: @escaping ServiceAPICompletion<T>) {
+    @discardableResult
+    open func makeRequest<T>(endpoint: Endpointing, completion: @escaping ServiceAPICompletion<T>) -> URLSessionDataTask? {
         dispacher.call(endpoint: endpoint) { [weak jsonDecoder] result in
             guard let jsonDecoder = jsonDecoder else { return }
             switch result {
