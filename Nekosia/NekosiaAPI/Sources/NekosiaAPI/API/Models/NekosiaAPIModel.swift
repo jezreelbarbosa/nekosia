@@ -2,65 +2,65 @@ import Foundation
 
 public struct NekosiaAPIModel: Decodable, Equatable {
     public let count: Int
-    public let images: [ImageItemModel]
+    public let images: [NekosiaImageItemModel]
 }
 
-public struct ImageItemModel: Decodable, Equatable {
+public struct NekosiaImageItemModel: Decodable, Equatable {
     public let id: String
-    public let colors: ColorModel
-    public let image: ImageModel
-    public let metadata: MetadataModel
+    public let colors: NekosiaColorModel
+    public let image: NekosiaImageModel
+    public let metadata: NekosiaMetadataModel
     public let category: String
     public let tags: [String]
     public let rating: String
-    public let anime: AnimeModel
-    public let source: SourceModel
-    public let attribution: AttributionModel
+    public let anime: NekosiaAnimeModel
+    public let source: NekosiaSourceModel
+    public let attribution: NekosiaAttributionModel
 }
 
-public struct ColorModel: Decodable, Equatable {
+public struct NekosiaColorModel: Decodable, Equatable {
     public let main: String
     public let palette: [String]
 }
 
-public struct ImageModel: Decodable, Equatable {
-    public let original: ImageURLModel
-    public let compressed: ImageURLModel
+public struct NekosiaImageModel: Decodable, Equatable {
+    public let original: NekosiaImageURLModel
+    public let compressed: NekosiaImageURLModel
 }
 
-public struct ImageURLModel: Decodable, Equatable {
+public struct NekosiaImageURLModel: Decodable, Equatable {
     public let url: URL
     public let `extension`: String
 }
 
-public struct MetadataModel: Decodable, Equatable {
-    public let original: MetadataDataModel
-    public let compressed: MetadataDataModel
+public struct NekosiaMetadataModel: Decodable, Equatable {
+    public let original: NekosiaMetadataDataModel
+    public let compressed: NekosiaMetadataDataModel
 }
 
-public struct MetadataDataModel: Decodable, Equatable {
+public struct NekosiaMetadataDataModel: Decodable, Equatable {
     public let width: Int
     public let height: Int
     public let size: Int
     public let `extension`: String
 }
 
-public struct AnimeModel: Decodable, Equatable {
+public struct NekosiaAnimeModel: Decodable, Equatable {
     public let title: String?
     public let character: String?
 }
 
-public struct SourceModel: Decodable, Equatable {
+public struct NekosiaSourceModel: Decodable, Equatable {
     public let url: URL?
     public let direct: URL?
 }
 
-public struct AttributionModel: Decodable, Equatable {
-    public let artist: ArtistModel
+public struct NekosiaAttributionModel: Decodable, Equatable {
+    public let artist: NekosiaArtistModel
     public let copyright: String?
 }
 
-public struct ArtistModel: Decodable, Equatable {
+public struct NekosiaArtistModel: Decodable, Equatable {
     public let username: String?
     public let profile: URL?
 }

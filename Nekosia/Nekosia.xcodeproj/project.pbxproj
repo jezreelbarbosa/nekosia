@@ -14,6 +14,7 @@
 		0DC0607E2C9B8CAA00C75F50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DC0607C2C9B8CAA00C75F50 /* LaunchScreen.storyboard */; };
 		0DC060872C9BA21B00C75F50 /* Stevia in Frameworks */ = {isa = PBXBuildFile; productRef = 0DC060862C9BA21B00C75F50 /* Stevia */; };
 		0DC0608B2C9C87A400C75F50 /* NekosiaAPI in Frameworks */ = {isa = PBXBuildFile; productRef = 0DC0608A2C9C87A400C75F50 /* NekosiaAPI */; };
+		0DE9B1C22CCF1F040060B154 /* Components in Frameworks */ = {isa = PBXBuildFile; productRef = 0DE9B1C12CCF1F040060B154 /* Components */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 			files = (
 				0DC0608B2C9C87A400C75F50 /* NekosiaAPI in Frameworks */,
 				0DC060872C9BA21B00C75F50 /* Stevia in Frameworks */,
+				0DE9B1C22CCF1F040060B154 /* Components in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,6 +97,7 @@
 			packageProductDependencies = (
 				0DC060862C9BA21B00C75F50 /* Stevia */,
 				0DC0608A2C9C87A400C75F50 /* NekosiaAPI */,
+				0DE9B1C12CCF1F040060B154 /* Components */,
 			);
 			productName = Nekosia;
 			productReference = 0DC0606E2C9B8C9200C75F50 /* Nekosia.app */;
@@ -392,6 +395,10 @@
 		0DC0608A2C9C87A400C75F50 /* NekosiaAPI */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = NekosiaAPI;
+		};
+		0DE9B1C12CCF1F040060B154 /* Components */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Components;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

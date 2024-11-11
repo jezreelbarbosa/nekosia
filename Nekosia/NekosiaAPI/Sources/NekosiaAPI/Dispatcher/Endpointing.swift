@@ -1,6 +1,6 @@
 import Foundation
 
-public protocol Endpointing {
+internal protocol Endpointing {
     var baseURL: String { get }
     var path: String { get }
     var parameters: [String: String]? { get }

@@ -1,6 +1,6 @@
 import Foundation
 
-public enum APIError: Error {
+public enum NekosiaAPIError: Error {
     case urlError
     case requestError(Data?, URLResponse?, Error)
     case unknowError(Data?, URLResponse?, Error?)

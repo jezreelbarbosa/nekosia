@@ -1,29 +1,38 @@
 import Foundation
 
-public struct NekosiaQueryModel: Encodable, Equatable {
-    public let count: Int
-    public let session: String?
-    public let id: String?
-    public let additionalTags: [String]?
-    public let blacklistedTags: [String]?
-    public let rating: Rating?
+public enum NekosiaQueryModel: Hashable, Equatable {
+    case count(Int)
+    case session(String)
+    case id(String)
+    case additionalTags([String])
+    case blacklistedTags([String])
+    case rating(Rating)
 
-    var parameters: [String: String] {
-        var parameters: [String: String] = [:]
-        let additionalTags = additionalTags?.joined(separator: ",")
-        let blacklistedTags = blacklistedTags?.joined(separator: ",")
-        parameters["session"] = session
-        parameters["id"] = id
-        parameters["count"] = String(count)
-        parameters["additionalTags"] = additionalTags
-        parameters["blacklistedTags"] = blacklistedTags
-        parameters["rating"] = rating?.rawValue
-        return parameters
-    }
-
-    public enum Rating: String, Encodable, Equatable {
+    public enum Rating: String, Hashable, Equatable {
         case safe
         case questionable
-        case nsfw
+    }
+}
+
+extension Set where Element == NekosiaQueryModel {
+    var parameters: [String: String] {
+        var parameters: [String: String] = [:]
+        for element in self {
+            switch element {
+            case .count(let count):
+                parameters["count"] = String(count)
+            case .session(let session):
+                parameters["session"] = session
+            case .id(let id):
+                parameters["id"] = id
+            case .additionalTags(let additionalTags):
+                parameters["additionalTags"] = additionalTags.joined(separator: ",")
+            case .blacklistedTags(let blacklistedTags):
+                parameters["blacklistedTags"] = blacklistedTags.joined(separator: ",")
+            case .rating(let rating):
+                parameters["rating"] = rating.rawValue
+            }
+        }
+        return parameters
     }
 }
