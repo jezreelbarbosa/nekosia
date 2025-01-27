@@ -3,28 +3,40 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D1E41132D1EFFD80051EC3A /* ArchitectLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = 0D1E41122D1EFFD80051EC3A /* ArchitectLibrary */; };
+		0DB55ACF2D2308C100874A3B /* ImageDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB55ACE2D2308C100874A3B /* ImageDetailsView.swift */; };
+		0DBE13B32CF61F4D00CF58F5 /* NekosiaAPI in Frameworks */ = {isa = PBXBuildFile; productRef = 0DBE13B22CF61F4D00CF58F5 /* NekosiaAPI */; };
 		0DC060722C9B8C9200C75F50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC060712C9B8C9200C75F50 /* AppDelegate.swift */; };
 		0DC060742C9B8C9200C75F50 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC060732C9B8C9200C75F50 /* SceneDelegate.swift */; };
-		0DC060762C9B8C9200C75F50 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC060752C9B8C9200C75F50 /* ViewController.swift */; };
+		0DC060762C9B8C9200C75F50 /* ImageDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC060752C9B8C9200C75F50 /* ImageDetailsViewController.swift */; };
 		0DC0607B2C9B8CAA00C75F50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DC0607A2C9B8CAA00C75F50 /* Assets.xcassets */; };
 		0DC0607E2C9B8CAA00C75F50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DC0607C2C9B8CAA00C75F50 /* LaunchScreen.storyboard */; };
 		0DC060872C9BA21B00C75F50 /* Stevia in Frameworks */ = {isa = PBXBuildFile; productRef = 0DC060862C9BA21B00C75F50 /* Stevia */; };
-		0DC0608B2C9C87A400C75F50 /* NekosiaAPI in Frameworks */ = {isa = PBXBuildFile; productRef = 0DC0608A2C9C87A400C75F50 /* NekosiaAPI */; };
-		0DE9B1C22CCF1F040060B154 /* Components in Frameworks */ = {isa = PBXBuildFile; productRef = 0DE9B1C12CCF1F040060B154 /* Components */; };
+		0DD4A4EB2D32F5C700A2E1F9 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD4A4EA2D32F5C700A2E1F9 /* UIView+Extension.swift */; };
+		0DD79D912D42C96500200075 /* ImagesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD79D902D42C96500200075 /* ImagesListView.swift */; };
+		0DD79D932D42C98D00200075 /* ImagesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD79D922D42C98D00200075 /* ImagesListViewController.swift */; };
+		0DD79D952D42E7E000200075 /* ImageListCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD79D942D42E7E000200075 /* ImageListCVCell.swift */; };
+		0DD79D972D44210900200075 /* ImageItemDisplayModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD79D962D44210900200075 /* ImageItemDisplayModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0DB55ACE2D2308C100874A3B /* ImageDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDetailsView.swift; sourceTree = "<group>"; };
 		0DC0606E2C9B8C9200C75F50 /* Nekosia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nekosia.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0DC060712C9B8C9200C75F50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0DC060732C9B8C9200C75F50 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0DC060752C9B8C9200C75F50 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0DC0607A2C9B8CAA00C75F50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0DC060712C9B8C9200C75F50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Nekosia/AppMain/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
+		0DC060732C9B8C9200C75F50 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = Nekosia/AppMain/SceneDelegate.swift; sourceTree = SOURCE_ROOT; };
+		0DC060752C9B8C9200C75F50 /* ImageDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDetailsViewController.swift; sourceTree = "<group>"; };
+		0DC0607A2C9B8CAA00C75F50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Nekosia/AppMain/Assets.xcassets; sourceTree = SOURCE_ROOT; };
 		0DC0607D2C9B8CAA00C75F50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		0DC0607F2C9B8CAA00C75F50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DC0607F2C9B8CAA00C75F50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = Nekosia/AppMain/Info.plist; sourceTree = SOURCE_ROOT; };
+		0DD4A4EA2D32F5C700A2E1F9 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		0DD79D902D42C96500200075 /* ImagesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesListView.swift; sourceTree = "<group>"; };
+		0DD79D922D42C98D00200075 /* ImagesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesListViewController.swift; sourceTree = "<group>"; };
+		0DD79D942D42E7E000200075 /* ImageListCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageListCVCell.swift; sourceTree = "<group>"; };
+		0DD79D962D44210900200075 /* ImageItemDisplayModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageItemDisplayModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,15 +44,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0DC0608B2C9C87A400C75F50 /* NekosiaAPI in Frameworks */,
 				0DC060872C9BA21B00C75F50 /* Stevia in Frameworks */,
-				0DE9B1C22CCF1F040060B154 /* Components in Frameworks */,
+				0DBE13B32CF61F4D00CF58F5 /* NekosiaAPI in Frameworks */,
+				0D1E41132D1EFFD80051EC3A /* ArchitectLibrary in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0DB2F23A2D22FAA2004DBD75 /* ImageDetails */ = {
+			isa = PBXGroup;
+			children = (
+				0DB55ACE2D2308C100874A3B /* ImageDetailsView.swift */,
+				0DC060752C9B8C9200C75F50 /* ImageDetailsViewController.swift */,
+			);
+			path = ImageDetails;
+			sourceTree = "<group>";
+		};
+		0DB2F23B2D22FAB8004DBD75 /* AppMain */ = {
+			isa = PBXGroup;
+			children = (
+				0DC060712C9B8C9200C75F50 /* AppDelegate.swift */,
+				0DC060732C9B8C9200C75F50 /* SceneDelegate.swift */,
+				0DC0607A2C9B8CAA00C75F50 /* Assets.xcassets */,
+				0DC0607C2C9B8CAA00C75F50 /* LaunchScreen.storyboard */,
+				0DC0607F2C9B8CAA00C75F50 /* Info.plist */,
+			);
+			path = AppMain;
+			sourceTree = "<group>";
+		};
 		0DC060652C9B8C9200C75F50 = {
 			isa = PBXGroup;
 			children = (
@@ -61,12 +94,10 @@
 		0DC060702C9B8C9200C75F50 /* Nekosia */ = {
 			isa = PBXGroup;
 			children = (
-				0DC060712C9B8C9200C75F50 /* AppDelegate.swift */,
-				0DC060732C9B8C9200C75F50 /* SceneDelegate.swift */,
-				0DC060752C9B8C9200C75F50 /* ViewController.swift */,
-				0DC0607A2C9B8CAA00C75F50 /* Assets.xcassets */,
-				0DC0607C2C9B8CAA00C75F50 /* LaunchScreen.storyboard */,
-				0DC0607F2C9B8CAA00C75F50 /* Info.plist */,
+				0DD4A4E92D32F5AE00A2E1F9 /* Utils */,
+				0DB2F23B2D22FAB8004DBD75 /* AppMain */,
+				0DD79D8F2D42C94200200075 /* ImagesList */,
+				0DB2F23A2D22FAA2004DBD75 /* ImageDetails */,
 			);
 			path = Nekosia;
 			sourceTree = "<group>";
@@ -76,6 +107,25 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0DD4A4E92D32F5AE00A2E1F9 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				0DD4A4EA2D32F5C700A2E1F9 /* UIView+Extension.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		0DD79D8F2D42C94200200075 /* ImagesList */ = {
+			isa = PBXGroup;
+			children = (
+				0DD79D962D44210900200075 /* ImageItemDisplayModel.swift */,
+				0DD79D942D42E7E000200075 /* ImageListCVCell.swift */,
+				0DD79D902D42C96500200075 /* ImagesListView.swift */,
+				0DD79D922D42C98D00200075 /* ImagesListViewController.swift */,
+			);
+			path = ImagesList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,8 +146,8 @@
 			name = Nekosia;
 			packageProductDependencies = (
 				0DC060862C9BA21B00C75F50 /* Stevia */,
-				0DC0608A2C9C87A400C75F50 /* NekosiaAPI */,
-				0DE9B1C12CCF1F040060B154 /* Components */,
+				0DBE13B22CF61F4D00CF58F5 /* NekosiaAPI */,
+				0D1E41122D1EFFD80051EC3A /* ArchitectLibrary */,
 			);
 			productName = Nekosia;
 			productReference = 0DC0606E2C9B8C9200C75F50 /* Nekosia.app */;
@@ -119,7 +169,7 @@
 				};
 			};
 			buildConfigurationList = 0DC060692C9B8C9200C75F50 /* Build configuration list for PBXProject "Nekosia" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -129,6 +179,8 @@
 			mainGroup = 0DC060652C9B8C9200C75F50;
 			packageReferences = (
 				0DC060852C9BA21B00C75F50 /* XCRemoteSwiftPackageReference "Stevia" */,
+				0DBE13B12CF61F4D00CF58F5 /* XCRemoteSwiftPackageReference "NekosiaAPI" */,
+				0D1E41112D1EFFD80051EC3A /* XCRemoteSwiftPackageReference "ArchitectLibrary" */,
 			);
 			productRefGroup = 0DC0606F2C9B8C9200C75F50 /* Products */;
 			projectDirPath = "";
@@ -156,9 +208,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0DC060762C9B8C9200C75F50 /* ViewController.swift in Sources */,
+				0DD79D912D42C96500200075 /* ImagesListView.swift in Sources */,
+				0DD79D972D44210900200075 /* ImageItemDisplayModel.swift in Sources */,
+				0DC060762C9B8C9200C75F50 /* ImageDetailsViewController.swift in Sources */,
 				0DC060722C9B8C9200C75F50 /* AppDelegate.swift in Sources */,
+				0DB55ACF2D2308C100874A3B /* ImageDetailsView.swift in Sources */,
+				0DD4A4EB2D32F5C700A2E1F9 /* UIView+Extension.swift in Sources */,
+				0DD79D952D42E7E000200075 /* ImageListCVCell.swift in Sources */,
 				0DC060742C9B8C9200C75F50 /* SceneDelegate.swift in Sources */,
+				0DD79D932D42C98D00200075 /* ImagesListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,7 +229,8 @@
 				0DC0607D2C9B8CAA00C75F50 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
+			path = Nekosia/AppMain;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXVariantGroup section */
 
@@ -297,14 +356,15 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Nekosia/Info.plist;
+				INFOPLIST_FILE = Nekosia/AppMain/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.graphics-design";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -328,14 +388,15 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Nekosia/Info.plist;
+				INFOPLIST_FILE = Nekosia/AppMain/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.graphics-design";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -376,6 +437,22 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		0D1E41112D1EFFD80051EC3A /* XCRemoteSwiftPackageReference "ArchitectLibrary" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jezreelbarbosa/ArchitectLibrary.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.4;
+			};
+		};
+		0DBE13B12CF61F4D00CF58F5 /* XCRemoteSwiftPackageReference "NekosiaAPI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jezreelbarbosa/NekosiaAPI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.4;
+			};
+		};
 		0DC060852C9BA21B00C75F50 /* XCRemoteSwiftPackageReference "Stevia" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/freshOS/Stevia";
@@ -387,18 +464,20 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		0D1E41122D1EFFD80051EC3A /* ArchitectLibrary */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0D1E41112D1EFFD80051EC3A /* XCRemoteSwiftPackageReference "ArchitectLibrary" */;
+			productName = ArchitectLibrary;
+		};
+		0DBE13B22CF61F4D00CF58F5 /* NekosiaAPI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0DBE13B12CF61F4D00CF58F5 /* XCRemoteSwiftPackageReference "NekosiaAPI" */;
+			productName = NekosiaAPI;
+		};
 		0DC060862C9BA21B00C75F50 /* Stevia */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 0DC060852C9BA21B00C75F50 /* XCRemoteSwiftPackageReference "Stevia" */;
 			productName = Stevia;
-		};
-		0DC0608A2C9C87A400C75F50 /* NekosiaAPI */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = NekosiaAPI;
-		};
-		0DE9B1C12CCF1F040060B154 /* Components */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = Components;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
