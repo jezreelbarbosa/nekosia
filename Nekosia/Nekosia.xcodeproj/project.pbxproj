@@ -442,7 +442,7 @@
 			repositoryURL = "https://github.com/jezreelbarbosa/ArchitectLibrary.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 0.1.4;
+				minimumVersion = 0.1.5;
 			};
 		};
 		0DBE13B12CF61F4D00CF58F5 /* XCRemoteSwiftPackageReference "NekosiaAPI" */ = {

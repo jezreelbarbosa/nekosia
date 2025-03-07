@@ -16,10 +16,6 @@ final class ImageDetailsViewController: UICodeViewController<ImageDetailsView> {
         title = "Image details"
         navigationItem.largeTitleDisplayMode = .always
         navigationController?.navigationBar.prefersLargeTitles = true
-
-        rootView.imageView.aspectRatio(model.ratio)
-        rootView.applyImageShadow(color: model.color)
-        rootView.imageView.image = model.image
-        rootView.blurBackgroundImageView.image = model.image
+        rootView.display(model: model)
     }
 }

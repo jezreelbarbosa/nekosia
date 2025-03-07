@@ -5,8 +5,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/jezreelbarbosa/ArchitectLibrary.git",
       "state" : {
-        "revision" : "5e405069582dd39f96933986dba2c4a52088b8a1",
-        "version" : "0.1.4"
+        "revision" : "ffb638a3e4f6b26f7f0fffcdc6b5fb1ea1f0d037",
+        "version" : "0.1.5"
       }
     },
     {

@@ -40,7 +40,7 @@ final class ImageListCVCell: UICodeCollectionViewCell {
             self?.nImageView.image = self?.model?.image
         }
         nImageView.image = model.image
-        backgroundColor = model.color
+        backgroundColor = model.mainColor
     }
 
     override func prepareForReuse() {
